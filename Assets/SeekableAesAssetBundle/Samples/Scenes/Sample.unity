@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 455230812}
   - component: {fileID: 455230811}
   m_Layer: 5
-  m_Name: Button_OnLoadFile
+  m_Name: Button_OnLoadFromFile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Load File
+  m_Text: LoadFromFile
 --- !u!222 &473687173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 966901335}
   - component: {fileID: 966901334}
   m_Layer: 5
-  m_Name: Button_OnLoadStream
+  m_Name: Button_OnLoadFromStream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Load Stream
+  m_Text: LoadFromStream
 --- !u!222 &1338464147
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1620,7 +1620,7 @@ GameObject:
   - component: {fileID: 1389027793}
   - component: {fileID: 1389027792}
   m_Layer: 5
-  m_Name: Button_OnLoadMemory
+  m_Name: Button_OnLoadFromMemory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2256,7 +2256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Load Memory
+  m_Text: LoadFromMemory
 --- !u!222 &1633978864
 CanvasRenderer:
   m_ObjectHideFlags: 0
