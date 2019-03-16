@@ -41,6 +41,26 @@
 - シーンは同ディレクトリの`Scenes/Sample.unity`を参照。
 - スクリプトは[Sample.cs](https://github.com/mao-test-h/SeekableAesAssetBundle/blob/master/Assets/SeekableAesAssetBundle/Samples/Scripts/Sample.cs)を参照。
 
+### ※検証用AssetBundleについて
+
+検証用のAssetBundleはサイズが大きいために敢えてコミットはしていない。  
+その為にサンプルを動かす際には自前でビルドする必要がある。  
+
+ビルド処理自体は既に用意しており、メニューバーにある以下の項目で実行できる。
+
+- **Samples/Build/Build AssetBundle(Uncompressed)**
+- **Samples/Build/Build AssetBundle(LZMA)**
+- **Samples/Build/Build AssetBundle(LZ4)**
+    - 括弧内にある圧縮形式のAssetBundleをビルド。ビルドされるAssetBundle名は`sample`
+        - ※この段階では暗号化はされていない。
+    - ビルドが完了するとStreamingAssets以下にAssetBundleが生成される
+- **Samples/Encrypt/Encrypt AssetBundle(Uncompressed)**
+- **Samples/Encrypt/Encrypt AssetBundle(LZMA)**
+- **Samples/Encrypt/Encrypt AssetBundle(LZ4)**
+    - 括弧内にある圧縮形式のAssetBundleを暗号化。
+    - 暗号化したAssetBundleは`encrypted_sample`と言う名前で元データと同じディレクトリ内に新規生成される。
+    
+    
     
 # ▽ 参考リンク/その他メモ
 
