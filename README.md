@@ -33,7 +33,14 @@
     - そもそもの前提としてどうしてこうなってるかと言うと、**標準で実装されている[CryptoStream](https://docs.microsoft.com/ja-jp/dotnet/api/system.security.cryptography.cryptostream?view=netframework-4.7.2)の`CanSeek`が必ずfalse返すのでLoadFromStreamで使えない。**
     - その為に自前で暗号化Streamを実装する必要が出てきた。
 
+
+ # ▽ サンプルについて
  
+ `Assets/SeekableAesAssetBundle/Samples`以下にサンプルを用意している。
+ 
+- シーンは同ディレクトリの`Scenes/Sample.unity`を参照。
+- スクリプトは[Sample.cs](https://github.com/mao-test-h/SeekableAesAssetBundle/blob/master/Assets/SeekableAesAssetBundle/Samples/Scripts/Sample.cs)を参照。
+
     
 # ▽ 参考リンク/その他メモ
 
