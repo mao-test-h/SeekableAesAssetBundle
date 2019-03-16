@@ -1,0 +1,2 @@
+# SeekableAesAssetBundle
+暗号化済みAssetBundleをLoadFromStreamで復号しつつロードするテスト
